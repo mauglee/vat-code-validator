@@ -3,9 +3,9 @@
 require_once 'VatValidator.php';
 
 $vats = array(
-	'DE115235681',
-	'DE115235682',
-	'   FR-505.720.939.20 -__ ',
+	'DE115235681', // valid
+	'DE115235682', // invalid
+	'   FR-505.720.939.20 -__ ', // valid after sanitized
 );
 
 $validator = new VatValidator();
