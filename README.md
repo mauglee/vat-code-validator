@@ -1,5 +1,5 @@
 # VAT code validator
-Finds VAT code information webservice at http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl
+Finds VAT code information at http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl webservice
 
 ## Example usage
 ```PHP
